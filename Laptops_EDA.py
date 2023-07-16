@@ -21,10 +21,9 @@ else:
 
     #Designing Main Page
     #slt.image("logo.png",use_column_width = True)
-    #slt.title("Exploratory Data Analysis On Laptops DataSet")
-    uploaded_file = slt.file_uploader("Upload a Laptops Dataset (.csv)")
-    if uploaded_file is not None:
-        data = pd.read_csv(uploaded_file)
+    slt.title("Exploratory Data Analysis On Laptops DataSet")
+    if True:
+        data = pd.read_csv("Laptop1.csv")
         slt.write("Preview : ")
         slt.dataframe(data.head(20))
         slt.title("Laptops Specifications DataSet")
