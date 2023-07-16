@@ -20,8 +20,8 @@ else:
     #names = ['Praneeth Vasa']
 
     #Designing Main Page
-    slt.image("logo.png",use_column_width = True)
-    slt.title("Exploratory Data Analysis On Laptops DataSet")
+    #slt.image("logo.png",use_column_width = True)
+    #slt.title("Exploratory Data Analysis On Laptops DataSet")
     uploaded_file = slt.file_uploader("Upload a Laptops Dataset (.csv)")
     if uploaded_file is not None:
         data = pd.read_csv(uploaded_file)
