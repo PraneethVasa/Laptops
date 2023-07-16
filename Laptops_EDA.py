@@ -21,9 +21,9 @@ slt.sidebar.write("Email: praneethbalu178@gmail.com")
 slt.sidebar.title("Connect with Me")
 slt.sidebar.markdown(
     """
-    [LinkedIn](https://www.linkedin.com/in/praneeth-vasa-a42922262/)
-    [GitHub](https://github.com/PraneethVasa/)
-    [Instagram]https://www.instagram.com/praneeth_vasa_/)
+    [LinkedIn](https://www.linkedin.com/in/praneeth-vasa-a42922262/)\n
+    [GitHub](https://github.com/PraneethVasa/)\n
+    [Instagram](https://www.instagram.com/praneeth_vasa_/)
     """
 )
 mt = True
