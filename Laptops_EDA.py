@@ -9,17 +9,17 @@ from PIL import Image
 #Setting Page Configuration
 slt.set_page_config(page_title = "Laptops - EDA",page_icon="icon.png",layout="wide")
 slt.caption("@PraneethVasa")
-st.sidebar.title("Project Description")
-st.sidebar.write("Welcome to my laptop EDA project! This tool analyzes all aspects of laptop data, providing valuable insights and visualizations. It also includes a handy Laptop Finder add-on, helping users find the best matches based on their specific requirements.")
+slt.sidebar.title("Project Description")
+slt.sidebar.write("Welcome to my laptop EDA project! This tool analyzes all aspects of laptop data, providing valuable insights and visualizations. It also includes a handy Laptop Finder add-on, helping users find the best matches based on their specific requirements.")
 
 # Creator Information
-st.sidebar.title("About the Creator")
-st.sidebar.write("Created by: Praneeth Vasa")
-st.sidebar.write("Email: praneethbalu178@gmail.com")
+slt.sidebar.title("About the Creator")
+slt.sidebar.write("Created by: Praneeth Vasa")
+slt.sidebar.write("Email: praneethbalu178@gmail.com")
 
 # Social Media Profiles
-st.sidebar.title("Connect with Me")
-st.sidebar.markdown(
+slt.sidebar.title("Connect with Me")
+slt.sidebar.markdown(
     """
     [LinkedIn](https://www.linkedin.com/in/praneeth-vasa-a42922262/)
     [GitHub](https://github.com/PraneethVasa/)
